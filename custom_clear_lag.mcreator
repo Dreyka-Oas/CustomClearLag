@@ -58,6 +58,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "oas.work.customclearlag"
   },
   "mcreatorVersion": 202400339215

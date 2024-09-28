@@ -3,6 +3,8 @@ package oas.work.customclearlag;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import oas.work.customclearlag.network.CustomClearLagModVariables;
+
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.neoforged.neoforge.network.handling.IPayloadHandler;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
@@ -35,6 +37,8 @@ public class CustomClearLagMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		CustomClearLagModVariables.ATTACHMENT_TYPES.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

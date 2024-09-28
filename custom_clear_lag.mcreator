@@ -27,9 +27,99 @@
         "dependencies": []
       },
       "path": "~/CreateFolder"
+    },
+    {
+      "name": "Execute",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "execute",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/customclearlag/procedures/ExecuteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CClearLagConf",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_clear_lag_conf",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/customclearlag/command/CClearLagConfCommand.java"
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "CClearLagConfStartStop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_clear_lag_conf_start_stop",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/customclearlag/procedures/CClearLagConfStartStopProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "CClearLagReset",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_clear_lag_reset",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/customclearlag/procedures/CClearLagResetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Command"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "time",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "stop",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
@@ -41,6 +131,10 @@
     "children": [
       {
         "name": "CreateFolder",
+        "children": []
+      },
+      {
+        "name": "Command",
         "children": []
       }
     ]

@@ -1,14 +1,15 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="Not specified"
+license="Apache License version 2.0"
 
 [[mods]]
 modId="custom_clear_lag"
-version="1.0.0"
+version="0.0.1"
 displayName="Custom Clear Lag"
-displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="dreyka-oas, MCreator"
+displayURL="https://github.com/Dreyka-Oas/CustomClearLag.git"
+credits="D\u00E9velopp\u00E9 par Dreyka Oas. Merci \u00E0 tous ceux qui soutiennent le modding et la communaut\u00E9 Minecraft ! \u2764\uFE0F"
+authors="Dreyka Oas"
+description="Entity Management \u2694\uFE0F\u2728"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

@@ -142,17 +142,18 @@
   "workspaceSettings": {
     "modid": "custom_clear_lag",
     "modName": "Custom Clear Lag",
-    "version": "1.0.0",
-    "author": "dreyka-oas, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "version": "0.0.1",
+    "description": "Entity Management ⚔️✨",
+    "author": "Dreyka Oas",
+    "websiteURL": "https://github.com/Dreyka-Oas/CustomClearLag.git",
+    "license": "Apache License version 2.0",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Développé par Dreyka Oas. Merci à tous ceux qui soutiennent le modding et la communauté Minecraft ! ❤️",
     "modElementsPackage": "oas.work.customclearlag"
   },
   "mcreatorVersion": 202400339215

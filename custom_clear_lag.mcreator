@@ -1,5 +1,34 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "CreateFolder",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "create_folder",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/customclearlag/procedures/CreateFolderProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/CreateFolder"
+    },
+    {
+      "name": "CreateFile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "create_file",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/customclearlag/procedures/CreateFileProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/CreateFolder"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
@@ -9,7 +38,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "CreateFolder",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "custom_clear_lag",

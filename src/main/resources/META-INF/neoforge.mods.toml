@@ -4,7 +4,7 @@ license="Apache License version 2.0"
 
 [[mods]]
 modId="custom_clear_lag"
-version="0.0.2"
+version="0.0.3"
 displayName="Custom Clear Lag"
 displayURL="https://github.com/Dreyka-Oas/CustomClearLag.git"
 logoFile="logo.png"
@@ -18,7 +18,7 @@ description="Entity Management \u2694\uFE0F\u2728"
 [[dependencies.custom_clear_lag]]
     modId="neoforge"
     type="required"
-    versionRange="[21.1.12,)"
+    versionRange="[21.1.65,)"
     ordering="AFTER"
     side="BOTH"
 

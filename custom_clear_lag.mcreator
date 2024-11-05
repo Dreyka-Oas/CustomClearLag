@@ -142,7 +142,7 @@
   "workspaceSettings": {
     "modid": "custom_clear_lag",
     "modName": "Custom Clear Lag",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Entity Management ⚔️✨",
     "author": "Dreyka Oas",
     "websiteURL": "https://github.com/Dreyka-Oas/CustomClearLag.git",
@@ -157,5 +157,5 @@
     "credits": "Developed by Dreyka Oas. Thank you to everyone who supports modding and the Minecraft community! ❤️",
     "modElementsPackage": "oas.work.customclearlag"
   },
-  "mcreatorVersion": 202400339215
+  "mcreatorVersion": 202400342716
 }

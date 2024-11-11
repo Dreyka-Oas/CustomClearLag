@@ -4,7 +4,7 @@ license="Apache License version 2.0"
 
 [[mods]]
 modId="custom_clear_lag"
-version="0.0.3"
+version="1.0.4"
 displayName="Custom Clear Lag"
 displayURL="https://github.com/Dreyka-Oas/CustomClearLag.git"
 logoFile="logo.png"

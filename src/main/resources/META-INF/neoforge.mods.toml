@@ -4,11 +4,19 @@ license="Apache License version 2.0"
 
 [[mods]]
 modId="custom_clear_lag"
+<<<<<<< Updated upstream
 version="1.0.4"
 displayName="Custom Clear Lag"
 displayURL="https://github.com/Dreyka-Oas/CustomClearLag.git"
 logoFile="logo.png"
 credits="Developed by Dreyka Oas. Thank you to everyone who supports modding and the Minecraft community! \u2764\uFE0F"
+=======
+version="1.0.9"
+displayName="Custom Clear Lag"
+displayURL="https://github.com/Dreyka-Oas/CustomClearLag.git"
+logoFile="logo.png"
+credits="O.A.S"
+>>>>>>> Stashed changes
 authors="Dreyka Oas"
 description="Entity Management \u2694\uFE0F\u2728"
 
@@ -18,7 +26,11 @@ description="Entity Management \u2694\uFE0F\u2728"
 [[dependencies.custom_clear_lag]]
     modId="neoforge"
     type="required"
+<<<<<<< Updated upstream
     versionRange="[21.1.65,)"
+=======
+    versionRange="[21.4.101-beta,)"
+>>>>>>> Stashed changes
     ordering="AFTER"
     side="BOTH"
 

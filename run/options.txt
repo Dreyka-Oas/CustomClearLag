@@ -9,4 +9,9 @@ maxFps:260
 particles:0
 renderClouds:false
 ao:0
+<<<<<<< Updated upstream
 mipmapLevels:2
+=======
+mipmapLevels:2
+lang:fr_fr
+>>>>>>> Stashed changes

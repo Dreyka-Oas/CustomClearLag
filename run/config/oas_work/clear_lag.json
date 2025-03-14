@@ -1,4 +1,0 @@
-{
-    "time": 1,
-    "command": "kill @e[type=!minecraft:player]"
-}

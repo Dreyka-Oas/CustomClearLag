@@ -1,3 +1,0 @@
-/kill @e[type=!minecraft:player]
-/summon minecraft:iron_golem
-/ds

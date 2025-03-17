@@ -1,0 +1,167 @@
+[17Mar2025 18:15:20.641] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.4.101-beta, --assetIndex, 19, --assetsDir, C:\Users\Dreyka Oas\.mcreator\gradle\caches\neoformruntime\assets, --gameDir, ., --fml.fmlVersion, 6.0.11, --fml.mcVersion, 1.21.4, --fml.neoForgeVersion, 21.4.101-beta, --fml.neoFormVersion, 20241203.161809]
+[17Mar2025 18:15:20.643] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.5+11-LTS
+[17Mar2025 18:15:20.644] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[17Mar2025 18:15:20.778] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[17Mar2025 18:15:20.869] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[17Mar2025 18:15:20.993] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[17Mar2025 18:15:21.062] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Dreyka%20Oas/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23162!/ Service=ModLauncher Env=CLIENT
+[17Mar2025 18:15:21.221] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon 780M Graphics  GL version 4.6.0 Core Profile Context 25.3.1.250220, ATI Technologies Inc.
+[17Mar2025 18:15:21.363] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[17Mar2025 18:15:21.371] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Custom Clear Lag 1.0.9 (custom_clear_lag)
+		Minecraft 1.21.4 (minecraft)
+		NeoForge 21.4.101-beta (neoforge)
+[17Mar2025 18:15:21.945] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'neoforgeclientdev' with arguments [--version, 21.4.101-beta, --gameDir, ., --assetsDir, C:\Users\Dreyka Oas\.mcreator\gradle\caches\neoformruntime\assets, --assetIndex, 19]
+[17Mar2025 18:15:23.037] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 246 Datafixer optimizations took 308 milliseconds
+[17Mar2025 18:15:23.199] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17Mar2025 18:15:26.688] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17Mar2025 18:15:26.690] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17Mar2025 18:15:26.692] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17Mar2025 18:15:26.692] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17Mar2025 18:15:26.693] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17Mar2025 18:15:26.797] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/I:/Mcreator/1.21.4/CustomClearLag/build/moddev/artifacts/neoforge-21.4.101-beta.jar%23215!/assets/.mcassetsroot' uses unexpected schema
+[17Mar2025 18:15:26.797] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/I:/Mcreator/1.21.4/CustomClearLag/build/moddev/artifacts/neoforge-21.4.101-beta.jar%23215!/data/.mcassetsroot' uses unexpected schema
+[17Mar2025 18:15:26.824] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17Mar2025 18:15:26.830] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[17Mar2025 18:15:26.913] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[17Mar2025 18:15:27.218] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.101-beta, for MC 1.21.4
+[17Mar2025 18:15:27.851] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[17Mar2025 18:15:27.970] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/custom_clear_lag
+[17Mar2025 18:15:28.058] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.01.hex, loading
+[17Mar2025 18:15:28.058] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.01.hex, loading
+[17Mar2025 18:15:28.932] [Render thread/ERROR] [net.neoforged.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: Cannot register payload custom_clear_lag:saved_data_sync as it is already registered.
+	Index: 1
+	Listeners:
+		0: oas.work.customclearlag.CustomClearLagMod$$Lambda/0x0000020fc5ef3d08@1c7f94b8
+		1: oas.work.custom_clear_lag.CustomClearLagMod$$Lambda/0x0000020fc5ef63f8@1b575d3f
+java.lang.UnsupportedOperationException: Cannot register payload custom_clear_lag:saved_data_sync as it is already registered.
+	at TRANSFORMER/neoforge@21.4.101-beta/net.neoforged.neoforge.network.registration.NetworkRegistry.register(NetworkRegistry.java:177)
+	at TRANSFORMER/neoforge@21.4.101-beta/net.neoforged.neoforge.network.registration.PayloadRegistrar.register(PayloadRegistrar.java:169)
+	at TRANSFORMER/neoforge@21.4.101-beta/net.neoforged.neoforge.network.registration.PayloadRegistrar.playBidirectional(PayloadRegistrar.java:63)
+	at TRANSFORMER/custom_clear_lag@1.0.9/oas.work.custom_clear_lag.CustomClearLagMod.lambda$registerNetworking$0(CustomClearLagMod.java:64)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at TRANSFORMER/custom_clear_lag@1.0.9/oas.work.custom_clear_lag.CustomClearLagMod.registerNetworking(CustomClearLagMod.java:64)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:26)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350)
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:329)
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177)
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModLoader.lambda$postEvent$13(ModLoader.java:358)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174)
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModLoader.postEvent(ModLoader.java:358)
+	at TRANSFORMER/neoforge@21.4.101-beta/net.neoforged.neoforge.network.registration.NetworkRegistry.setup(NetworkRegistry.java:130)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:83)
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:152)
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1211)
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.run(Minecraft.java:849)
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.main.Main.main(Main.java:241)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:128)
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120)
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49)
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210)
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.neoforged.devlaunch.Main.main(Main.java:55)
+
+[17Mar2025 18:15:28.933] [Render thread/ERROR] [net.neoforged.fml.ModContainer/LOADING]: Caught exception during event net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent@6892d403 dispatch for modid custom_clear_lag
+java.lang.UnsupportedOperationException: Cannot register payload custom_clear_lag:saved_data_sync as it is already registered.
+	at TRANSFORMER/neoforge@21.4.101-beta/net.neoforged.neoforge.network.registration.NetworkRegistry.register(NetworkRegistry.java:177) ~[neoforge-21.4.101-beta.jar%23216!/:?]
+	at TRANSFORMER/neoforge@21.4.101-beta/net.neoforged.neoforge.network.registration.PayloadRegistrar.register(PayloadRegistrar.java:169) ~[neoforge-21.4.101-beta.jar%23216!/:?]
+	at TRANSFORMER/neoforge@21.4.101-beta/net.neoforged.neoforge.network.registration.PayloadRegistrar.playBidirectional(PayloadRegistrar.java:63) ~[neoforge-21.4.101-beta.jar%23216!/:?]
+	at TRANSFORMER/custom_clear_lag@1.0.9/oas.work.custom_clear_lag.CustomClearLagMod.lambda$registerNetworking$0(CustomClearLagMod.java:64) ~[%23217!/:?]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at TRANSFORMER/custom_clear_lag@1.0.9/oas.work.custom_clear_lag.CustomClearLagMod.registerNetworking(CustomClearLagMod.java:64) ~[%23217!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:26) ~[bus-8.0.2.jar%23177!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350) ~[bus-8.0.2.jar%23177!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:329) ~[bus-8.0.2.jar%23177!/:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-6.0.11.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModLoader.lambda$postEvent$13(ModLoader.java:358) ~[loader-6.0.11.jar%23173!/:6.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-6.0.11.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModLoader.postEvent(ModLoader.java:358) ~[loader-6.0.11.jar%23173!/:6.0]
+	at TRANSFORMER/neoforge@21.4.101-beta/net.neoforged.neoforge.network.registration.NetworkRegistry.setup(NetworkRegistry.java:130) ~[neoforge-21.4.101-beta.jar%23216!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:83) ~[neoforge-21.4.101-beta.jar%23215!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:152) ~[neoforge-21.4.101-beta.jar%23215!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-21.4.101-beta.jar%23215!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[neoforge-21.4.101-beta.jar%23215!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:115) ~[neoforge-21.4.101-beta.jar%23215!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1211) ~[neoforge-21.4.101-beta.jar%23215!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.run(Minecraft.java:849) ~[neoforge-21.4.101-beta.jar%23215!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.main.Main.main(Main.java:241) ~[neoforge-21.4.101-beta.jar%23215!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:128) ~[loader-6.0.11.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120) ~[loader-6.0.11.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49) ~[loader-6.0.11.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114) ~[loader-6.0.11.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23152!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23152!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23152!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23152!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23152!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23152!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23152!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:55) [DevLaunch-1.0.1.jar:?]
+[17Mar2025 18:15:28.939] [modloading-worker-0/FATAL] [net.neoforged.fml.ModLoader/LOADING]: Failed to wait for future Network registry lock, 1 errors found
+[17Mar2025 18:15:29.085] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Haut-parleurs (Pebble V3)
+[17Mar2025 18:15:29.085] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[17Mar2025 18:15:29.086] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+[17Mar2025 18:15:29.172] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[17Mar2025 18:15:29.179] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[17Mar2025 18:15:29.179] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[17Mar2025 18:15:29.179] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[17Mar2025 18:15:29.179] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[17Mar2025 18:15:29.180] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[17Mar2025 18:15:29.180] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[17Mar2025 18:15:29.180] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[17Mar2025 18:15:29.180] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[17Mar2025 18:15:29.183] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[17Mar2025 18:15:29.184] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[17Mar2025 18:15:29.184] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[17Mar2025 18:15:29.184] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[17Mar2025 18:15:29.184] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[17Mar2025 18:15:29.184] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[17Mar2025 18:15:29.184] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[17Mar2025 18:15:29.184] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17Mar2025 18:15:29.184] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[17Mar2025 18:15:29.185] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.ModelEvent$BakingCompleted to a broken mod state
+[17Mar2025 18:15:29.186] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[17Mar2025 18:15:29.186] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[17Mar2025 18:15:29.299] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$AddLayers to a broken mod state
+[17Mar2025 18:15:29.309] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[17Mar2025 18:15:29.310] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[17Mar2025 18:15:29.311] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17Mar2025 18:15:29.311] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[17Mar2025 18:15:29.311] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17Mar2025 18:15:29.311] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[17Mar2025 18:15:29.311] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[17Mar2025 18:15:29.311] [Render thread/ERROR] [net.neoforged.fml.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[17Mar2025 18:15:29.313] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[17Mar2025 18:15:29.364] [Render thread/ERROR] [net.minecraft.CrashReport/]: Negative index in crash report handler (0/31)
+[17Mar2025 18:15:29.369] [Render thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 169d6691-60dc-490c-b05c-8274f1e44f3e
+[17Mar2025 18:15:29.370] [Render thread/FATAL] [net.neoforged.neoforge.client.loading.ClientModLoader/]: Crash report saved to .\crash-reports\crash-2025-03-17_18.15.29-fml.txt
+[17Mar2025 18:15:29.372] [Render thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 7583cfd4-8095-479e-a825-9bd9835da556
+[17Mar2025 18:15:35.178] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

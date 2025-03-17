@@ -1,0 +1,134 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 2025-03-17 18:13:36
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at TRANSFORMER/neoforge@21.4.101-beta/net.neoforged.neoforge.network.registration.NetworkRegistry.register(NetworkRegistry.java:177) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+-- Mod loading issue for: custom_clear_lag --
+Details:
+	Mod file: /I:/Mcreator/1.21.4/CustomClearLag/build/classes/java/main/
+	Failure message: Custom Clear Lag (custom_clear_lag) encountered an error while dispatching the net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent event
+		java.lang.UnsupportedOperationException: Cannot register payload custom_clear_lag:saved_data_sync as it is already registered.
+	Mod version: 1.0.9
+	Mod issues URL: <No issues URL found>
+	Exception message: java.lang.UnsupportedOperationException: Cannot register payload custom_clear_lag:saved_data_sync as it is already registered.
+Stacktrace:
+	at TRANSFORMER/neoforge@21.4.101-beta/net.neoforged.neoforge.network.registration.NetworkRegistry.register(NetworkRegistry.java:177) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.4.101-beta/net.neoforged.neoforge.network.registration.PayloadRegistrar.register(PayloadRegistrar.java:169) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.4.101-beta/net.neoforged.neoforge.network.registration.PayloadRegistrar.playBidirectional(PayloadRegistrar.java:63) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/custom_clear_lag@1.0.9/oas.work.custom_clear_lag.CustomClearLagMod.lambda$registerNetworking$0(CustomClearLagMod.java:64) ~[%23217!/:?] {re:classloading}
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[?:?] {}
+	at TRANSFORMER/custom_clear_lag@1.0.9/oas.work.custom_clear_lag.CustomClearLagMod.registerNetworking(CustomClearLagMod.java:64) ~[%23217!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:26) ~[bus-8.0.2.jar%23177!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350) ~[bus-8.0.2.jar%23177!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:329) ~[bus-8.0.2.jar%23177!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-6.0.11.jar%23173!/:6.0] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModLoader.lambda$postEvent$13(ModLoader.java:358) ~[loader-6.0.11.jar%23173!/:6.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-6.0.11.jar%23173!/:6.0] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModLoader.postEvent(ModLoader.java:358) ~[loader-6.0.11.jar%23173!/:6.0] {}
+	at TRANSFORMER/neoforge@21.4.101-beta/net.neoforged.neoforge.network.registration.NetworkRegistry.setup(NetworkRegistry.java:130) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:83) ~[neoforge-21.4.101-beta.jar%23215!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:152) ~[neoforge-21.4.101-beta.jar%23215!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-21.4.101-beta.jar%23215!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[neoforge-21.4.101-beta.jar%23215!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:115) ~[neoforge-21.4.101-beta.jar%23215!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1211) ~[neoforge-21.4.101-beta.jar%23215!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.run(Minecraft.java:849) ~[neoforge-21.4.101-beta.jar%23215!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.main.Main.main(Main.java:241) ~[neoforge-21.4.101-beta.jar%23215!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:128) ~[loader-6.0.11.jar%23173!/:6.0] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120) ~[loader-6.0.11.jar%23173!/:6.0] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49) ~[loader-6.0.11.jar%23173!/:6.0] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114) ~[loader-6.0.11.jar%23173!/:6.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23152!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.neoforged.devlaunch.Main.main(Main.java:55) [DevLaunch-1.0.1.jar:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.4
+	Minecraft Version ID: 1.21.4
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.5, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 339313680 bytes (323 MiB) / 662700032 bytes (632 MiB) up to 16542334976 bytes (15776 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 8700G w/ Radeon 780M Graphics      
+	Identifier: AuthenticAMD Family 25 Model 117 Stepping 2
+	Microarchitecture: Zen 3
+	Frequency (GHz): 4.20
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: AMD Radeon 780M Graphics 
+	Graphics card #0 vendor: Advanced Micro Devices, Inc.
+	Graphics card #0 VRAM (MiB): 2048.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.13031.3015
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 5.00
+	Memory slot #0 type: DDR5
+	Memory slot #1 capacity (MiB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 5.00
+	Memory slot #1 type: DDR5
+	Memory slot #2 capacity (MiB): 16384.00
+	Memory slot #2 clockSpeed (GHz): 5.00
+	Memory slot #2 type: DDR5
+	Memory slot #3 capacity (MiB): 16384.00
+	Memory slot #3 clockSpeed (GHz): 5.00
+	Memory slot #3 type: DDR5
+	Virtual memory max (MiB): 67053.81
+	Virtual memory used (MiB): 10130.85
+	Swap memory total (MiB): 3968.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 880120.81, total: 953095.00
+	Space in storage for workdir (MiB): available: 306194.03, total: 307200.00
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: neoforgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-6.0.11.jar slf4jfixer PLUGINSERVICE 
+		loader-6.0.11.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-11.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-6.0.11.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@6.0
+		lowcodefml@6.0
+		minecraft@6.0
+	Mod List: 
+		main                                              |Custom Clear Lag              |custom_clear_lag              |1.0.9               |Manifest: NOSIGNATURE
+		neoforge-21.4.101-beta.jar                        |Minecraft                     |minecraft                     |1.21.4              |Manifest: NOSIGNATURE
+		neoforge-21.4.101-beta.jar                        |NeoForge                      |neoforge                      |21.4.101-beta       |Manifest: NOSIGNATURE
+	Crash Report UUID: 87eeab53-e22a-4706-b14e-9ed0a414f97a
+	FML: 6.0.11
+	NeoForge: 21.4.101-beta
